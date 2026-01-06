@@ -19,4 +19,5 @@ FROM STATION
 WHERE LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
   AND RIGHT(LOWER(CITY), 1) NOT IN ('a', 'e', 'i', 'o', 'u');
 
-  
+ --explanation:
+ --The query selects distinct city names from the STATION table where the first letter of the city name is not a vowel (A, E, I, O, U) and the last letter of the city name is also not a vowel (a, e, i, o, u). 
